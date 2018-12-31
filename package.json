@@ -1,0 +1,29 @@
+{
+  "name": "@pool-water/math",
+  "version": "0.0.1",
+  "description": "plans are worthless, but planning is everything",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:@babel/register tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pool-water/math.git"
+  },
+  "keywords": [
+    "grass"
+  ],
+  "author": "Matt Owen",
+  "license": "MIT",
+  "homepage": "http://razorbal.de",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "npm": "^6.4.0"
+  }
+}
