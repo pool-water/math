@@ -29,8 +29,6 @@ module.exports = {
   },
   externals: {
     "THREE": "THREE",
-    "react": "React",
-    "react-dom": "ReactDOM",
   },
   mode: "development",
 };

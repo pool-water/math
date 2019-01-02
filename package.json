@@ -4,6 +4,9 @@
   "description": "plans are worthless, but planning is everything",
   "main": "src/index.js",
   "scripts": {
+    "ayy": "node ./node_modules/webpack/bin/webpack.js -p",
+    "livest": "node ./node_modules/webpack/bin/webpack.js --watch --progresswebpack",
+    "lmao": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base=examples/ --inline --hot",
     "test": "mocha --compilers js:@babel/register tests"
   },
   "repository": {
@@ -22,7 +25,10 @@
     "@babel/register": "^7.0.0",
     "babel-loader": "^8.0.4",
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
     "npm": "^6.4.0"
